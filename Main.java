@@ -1,21 +1,45 @@
+import java.io.*;
+
 public class Main {
 
-    String rubyCode;
+    private static FileReader fr;
+    private static RubyParser rp;
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        // TODO: Load code
+        fr = new FileReader("input.txt");
 
-        // TODO: Call getNextToken() function until it is possible
+        rp = new RubyParser();
 
-        // TODO: Print token info to the screen
+        Token token = getNextToken();
+
+        System.out.println(token.getInfo());
 
     }
 
     /**Used to retrieve the next token from the code file
      * @return Next token from the code file */
-    public static Token getNextToken() {
-        return null;
+    private static Token getNextToken()  {
+
+        Token nextToken;
+
+        while(true) {
+
+            char nextChar = 0;
+
+            try {
+                nextChar = (char)fr.read();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            System.out.println(nextChar);
+
+            break;
+
+        }
+
+        return new TokenDelimiter("[");
     }
 
 }

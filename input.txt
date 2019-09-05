@@ -1,0 +1,23 @@
+for i in (1..4)
+    print i
+end
+
+items = [ 1, 12, 5, 18.45 ]
+for it in items
+    print it
+end
+
+for i in (0...items.length)
+    print items[0..i]
+end
+
+def sqr(x)
+    return x*x
+end
+
+def shuffle(arr)
+    for n in 0...arr.size
+        targ = n + rand(arr.size - n)
+        arr[n], arr[targ] = arr[targ], arr[n] if n != targ
+    end
+end
