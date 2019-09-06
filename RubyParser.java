@@ -40,12 +40,12 @@ public class RubyParser {
             case "when":
             case "while":
             case "yield":
-            case "":
                 return true;
             default:
                 return false;
         }
     }
+
     public boolean isDelimiter(String a){
         switch (a){
             case "(":
@@ -57,12 +57,12 @@ public class RubyParser {
             case ",":
             case ";":
             case "'":
-            case "\"":
                 return true;
             default:
                 return false;
         }
     }
+
     public boolean isOperator(String a){
         switch (a){
             case "!":
@@ -93,20 +93,22 @@ public class RubyParser {
             case "+=":
             case "*=":
             case "**=":
+            case ".":
             case "..":
             case "...":
             case "not":
             case "and":
             case "or":
+            case "?":
             case "?:":
             case "&&":
             case "||":
                 return true;
             default:
                 return false;
-
         }
     }
+
     public boolean isSimpleLiteral(String a) {
         if (a == null || a.isEmpty()) return false;
         for (int i = 0; i < a.length(); i++) {
