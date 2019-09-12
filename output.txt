@@ -1,0 +1,330 @@
+Token type: KEYWORD
+String representation: "for"
+
+Token type: IDENTIFIER
+String representation: "i"
+
+Token type: KEYWORD
+String representation: "in"
+
+Token type: DELIMITER
+String representation: "("
+
+Token type: LITERAL
+String representation: "1"
+
+Token type: OPERATOR
+String representation: ".."
+
+Token type: LITERAL
+String representation: "4"
+
+Token type: DELIMITER
+String representation: ")"
+
+Token type: IDENTIFIER
+String representation: "print"
+
+Token type: IDENTIFIER
+String representation: "i"
+
+Token type: KEYWORD
+String representation: "end"
+
+Token type: IDENTIFIER
+String representation: "items"
+
+Token type: OPERATOR
+String representation: "="
+
+Token type: DELIMITER
+String representation: "["
+
+Token type: LITERAL
+String representation: "1"
+
+Token type: DELIMITER
+String representation: ","
+
+Token type: LITERAL
+String representation: "12"
+
+Token type: DELIMITER
+String representation: ","
+
+Token type: LITERAL
+String representation: "5"
+
+Token type: DELIMITER
+String representation: ","
+
+Token type: LITERAL
+String representation: "18"
+
+Token type: DELIMITER
+String representation: "]"
+
+Token type: KEYWORD
+String representation: "for"
+
+Token type: IDENTIFIER
+String representation: "it"
+
+Token type: KEYWORD
+String representation: "in"
+
+Token type: IDENTIFIER
+String representation: "items"
+
+Token type: IDENTIFIER
+String representation: "print"
+
+Token type: IDENTIFIER
+String representation: "it"
+
+Token type: KEYWORD
+String representation: "end"
+
+Token type: KEYWORD
+String representation: "for"
+
+Token type: IDENTIFIER
+String representation: "i"
+
+Token type: KEYWORD
+String representation: "in"
+
+Token type: DELIMITER
+String representation: "("
+
+Token type: LITERAL
+String representation: "0"
+
+Token type: OPERATOR
+String representation: "..."
+
+Token type: IDENTIFIER
+String representation: "items"
+
+Token type: OPERATOR
+String representation: "."
+
+Token type: IDENTIFIER
+String representation: "length"
+
+Token type: DELIMITER
+String representation: ")"
+
+Token type: IDENTIFIER
+String representation: "print"
+
+Token type: IDENTIFIER
+String representation: "items"
+
+Token type: DELIMITER
+String representation: "["
+
+Token type: LITERAL
+String representation: "0"
+
+Token type: OPERATOR
+String representation: ".."
+
+Token type: IDENTIFIER
+String representation: "i"
+
+Token type: DELIMITER
+String representation: "]"
+
+Token type: KEYWORD
+String representation: "end"
+
+Token type: KEYWORD
+String representation: "def"
+
+Token type: IDENTIFIER
+String representation: "sqr"
+
+Token type: DELIMITER
+String representation: "("
+
+Token type: IDENTIFIER
+String representation: "x"
+
+Token type: DELIMITER
+String representation: ")"
+
+Token type: KEYWORD
+String representation: "return"
+
+Token type: OPERATOR
+String representation: "|"
+
+Token type: IDENTIFIER
+String representation: "x"
+
+Token type: OPERATOR
+String representation: "|"
+
+Token type: OPERATOR
+String representation: "*"
+
+Token type: OPERATOR
+String representation: "|"
+
+Token type: IDENTIFIER
+String representation: "x"
+
+Token type: OPERATOR
+String representation: "|"
+
+Token type: KEYWORD
+String representation: "end"
+
+Token type: KEYWORD
+String representation: "def"
+
+Token type: IDENTIFIER
+String representation: "shuffle"
+
+Token type: DELIMITER
+String representation: "("
+
+Token type: IDENTIFIER
+String representation: "arr"
+
+Token type: DELIMITER
+String representation: ")"
+
+Token type: KEYWORD
+String representation: "for"
+
+Token type: IDENTIFIER
+String representation: "n"
+
+Token type: KEYWORD
+String representation: "in"
+
+Token type: LITERAL
+String representation: "0"
+
+Token type: OPERATOR
+String representation: "..."
+
+Token type: IDENTIFIER
+String representation: "arr"
+
+Token type: OPERATOR
+String representation: "."
+
+Token type: IDENTIFIER
+String representation: "size"
+
+Token type: IDENTIFIER
+String representation: "targ"
+
+Token type: OPERATOR
+String representation: "="
+
+Token type: IDENTIFIER
+String representation: "n"
+
+Token type: OPERATOR
+String representation: "+"
+
+Token type: IDENTIFIER
+String representation: "rand"
+
+Token type: DELIMITER
+String representation: "("
+
+Token type: IDENTIFIER
+String representation: "arr"
+
+Token type: OPERATOR
+String representation: "."
+
+Token type: IDENTIFIER
+String representation: "size"
+
+Token type: OPERATOR
+String representation: "-"
+
+Token type: IDENTIFIER
+String representation: "n"
+
+Token type: DELIMITER
+String representation: ")"
+
+Token type: IDENTIFIER
+String representation: "arr"
+
+Token type: DELIMITER
+String representation: "["
+
+Token type: IDENTIFIER
+String representation: "n"
+
+Token type: DELIMITER
+String representation: "]"
+
+Token type: DELIMITER
+String representation: ","
+
+Token type: IDENTIFIER
+String representation: "arr"
+
+Token type: DELIMITER
+String representation: "["
+
+Token type: IDENTIFIER
+String representation: "targ"
+
+Token type: DELIMITER
+String representation: "]"
+
+Token type: OPERATOR
+String representation: "="
+
+Token type: IDENTIFIER
+String representation: "arr"
+
+Token type: DELIMITER
+String representation: "["
+
+Token type: IDENTIFIER
+String representation: "targ"
+
+Token type: DELIMITER
+String representation: "]"
+
+Token type: DELIMITER
+String representation: ","
+
+Token type: IDENTIFIER
+String representation: "arr"
+
+Token type: DELIMITER
+String representation: "["
+
+Token type: IDENTIFIER
+String representation: "n"
+
+Token type: DELIMITER
+String representation: "]"
+
+Token type: KEYWORD
+String representation: "if"
+
+Token type: IDENTIFIER
+String representation: "n"
+
+Token type: OPERATOR
+String representation: "!="
+
+Token type: IDENTIFIER
+String representation: "targ"
+
+Token type: KEYWORD
+String representation: "end"
+

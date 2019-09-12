@@ -2,7 +2,6 @@ import java.io.*;
 
 public class Main {
 
-    private static FileReader fr;
     private static RubyParser rp;
     private static String rubyCode;
     private static int i = 0; // Substring can be done instead
@@ -11,7 +10,9 @@ public class Main {
 
         rubyCode = "";
 
-        fr = new FileReader("input.txt");
+        FileReader fr = new FileReader("input.txt");
+        FileWriter fw = new FileWriter("output.txt");
+        BufferedWriter bw = new BufferedWriter(fw);
 
         rp = new RubyParser();
 
@@ -22,15 +23,17 @@ public class Main {
             }
             rubyCode += (char)c + "";
         }
+        fr.close();
 
         while(true) {
             Token token = getNextToken();
             if (token != null) {
-                System.out.println(token.getInfo());
+                bw.write(token.getInfo() + "\n");
             } else {
                 break;
             }
         }
+        bw.close();
     }
 
     /**Used to retrieve the next token from the code file
